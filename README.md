@@ -73,11 +73,14 @@ Some tips to add the input data to the batch processing tool
 
 a)Enabling the batch processing, you will find the enabling button at the bottom of the dialog box.
 
+![Local image](./images/batch_processing.png)
 
 b)Start with the shoreline input, using the “auto
 
-
-
+![Local image](./images/add_files.png)
+![Local image](./images/expression.png)
+![Local image](./images/runup_expression.png)
+![Local image](./images/autofill.png)
 attribute(get_feature_by_id(@shoreline, 0), 'run_up')
 
 ## Authors and acknowledgment
