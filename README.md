@@ -1,4 +1,4 @@
-# TsuMap-Q 22
+# TsuMap-Q
 
 TsuMap-Q is a three-step QGIS python framework to design tsunami inundation maps.
 
