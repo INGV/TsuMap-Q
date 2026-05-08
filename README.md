@@ -70,29 +70,39 @@ Input data:
 The Step 3 application can be executed as a single processing mode, using either a single design run-up value or multiple values (comma-separated), for inundation mapping of one or more coastal sectors. Alternatively, an iterative processing mode can be used (batch processing), enabling the execution of the procedure across multiple coastal stretches with their corresponding design run-up values. In this mode, different input datasets may also be specified for each coastal stretch under analysis.
 
 ![Local image](./images/input_data_batch_processing.png)
+Fig. 4 - Input data for STEP-3 tool
 
 Some tips to add the input data to the batch processing tool
 
 a)Enabling the batch processing, you will find the enabling button at the bottom of the dialog box.
 
 ![Local image](./images/batch_processing.png)
+Fig. 5 - "Run as batch processing" button
 
 b)Start with the shoreline input, using the “auto
 
 ![Local image](./images/add_files.png)
+Fig. 6 - Adding files in one go.
+
 ![Local image](./images/expression.png)
+Fig. 7 - Adding the Design Run up Value using a QGIS expression
+
 ![Local image](./images/runup_expression.png)
+Fig. 8 - Adding the QGIS Expression attribute(get_feature_by_id(@shoreline, 0), 'run_up'), where 'run_up' is the name of the field containing the run up desing value.
+
+Expression: attribute(get_feature_by_id(@shoreline, 0), 'run_up')
+
 ![Local image](./images/autofill.png)
-attribute(get_feature_by_id(@shoreline, 0), 'run_up')
+Fig. 7 - Using the "Autofill" option to add the input data.
 
 ## Authors and acknowledgment
-These tools have been developed by ISPRA, The Italian Institute for Environmental Protection and Research, ISPRA (Istituto Superiore per la Protezione e la Ricerca Ambientale) and INGV The National Institute of Geophysics and Volcanology (Istituto Nazionale di Geofisica e Vulcanologia), and have been partially funded by the EU-DG ECHO - NEAM-COMMITMENT project.
+These tools have been developed by ISPRA, The Italian Institute for Environmental Protection and Research, ISPRA (Istituto Superiore per la Protezione e la Ricerca Ambientale) and INGV The National Institute of Geophysics and Volcanology (Istituto Nazionale di Geofisica e Vulcanologia), and have been partially funded by the EU-DG ECHO - NEAM-COMMITMENT project. The method (Tonini et al, 2021) was developed and adopted in the frame of the Italian Tsunami Warning System (SiAM, Sistema di Allertamento da Maremoto).
 
 ## License
 CC by 4.0.
 
 ## Citation
-Di Manna, P. Brizuela, B., Tonini, R., TsuMaps - Tools. Tsunami Inundation Mapping Tools for QGIS, XXX.V1
+Di Manna, P. Brizuela, B., Tonini, R., TsuMap-Q, Tsunami Inundation Mapping Tools for QGIS, XXX.V1
 
 
 
