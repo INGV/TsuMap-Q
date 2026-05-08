@@ -67,14 +67,15 @@ Input data:
 * Lakes (Optional): a polygon geometry shapefile, with a metric coordinate system describing the lakes and marine lagoons near the coast.
 * Output folder path: the directory where the results will be saved.
 * All files MUST have the same metric coordinate system.
-The Step 3 application can be executed as a single processing mode, using either a single design run-up value or multiple values (comma-separated), for inundation mapping of one or more coastal sectors. Alternatively, an iterative processing mode can be used (batch processing), enabling the execution of the procedure across multiple coastal stretches with their corresponding design run-up values. In this mode, different input datasets may also be specified for each coastal stretch under analysis. 
-![Local image](./images/batch_processing.png)
+The Step 3 application can be executed as a single processing mode, using either a single design run-up value or multiple values (comma-separated), for inundation mapping of one or more coastal sectors. Alternatively, an iterative processing mode can be used (batch processing), enabling the execution of the procedure across multiple coastal stretches with their corresponding design run-up values. In this mode, different input datasets may also be specified for each coastal stretch under analysis.
+
+![Local image](./images/input_data_batch_processing.png)
 
 Some tips to add the input data to the batch processing tool
 
 a)Enabling the batch processing, you will find the enabling button at the bottom of the dialog box.
 
-![Local image](./images/input_data_batch_processing.png)
+![Local image](./images/batch_processing.png)
 
 b)Start with the shoreline input, using the “auto
 
