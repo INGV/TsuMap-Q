@@ -8,7 +8,8 @@ Based on the availability of input data and calculation resources and time, diff
 This set of tools allows to build inundation maps supporting the application of the methodology in 3 steps (Fig 1): the first step consists of converting MIH values into design run-up and  transferring  these values from the POIs to the coastline; the second one assigns run-up values to coastal stretches and finally step 3 allows to build inundation maps for coastal stretches. A short video tutorial has been prepared for each step.
 
 ![Local image](./images/workflow.png)
-Fig.1 - Comprehensive GIS-based workflow. The starting point is the availability of a regional PTHA hazard model and a decision-making process by the Civil Protection Agency, focusing on threshold values and acceptable risk levels. Subsequently, three steps are used to process the inundation maps.
+Fig.1 - Comprehensive GIS-based workflow. The starting point is the availability of a regional PTHA hazard model and a decision-making process by the Civil Protection Agency, focusing on threshold values and acceptable risk levels expressed in terms of Average return period (ARP) and percentage of uncertainties distribution. Subsequently, three steps are used to process the inundation maps.
+
 ## Input Data
 
 The application of this GIS-based methodology for inundation map processing relies on the availability of topographic and morphological data, along with a defined Tsunami Hazard Model. The model provides hazard curves that express hazard levels as MIH values at each POI (Point of Interest) along the coast, for different Average Return Periods (ARP) and different percentiles of the uncertainty distribution.  A key advantage of this approach is that it does not require bathymetric data. 
@@ -104,7 +105,7 @@ These tools have been developed by ISPRA, The Italian Institute for Environmenta
 CC by 4.0.
 
 ## Citation
-Di Manna, P. Brizuela, B., Tonini, R., TsuMap-Q, Tsunami Inundation Mapping Tools for QGIS, XXX.V1
+Di Manna, P., Brizuela, B., Tonini, R. (2026). TsuMap-Q, Tsunami Inundation Mapping Tools for QGIS, XXX.V1
 
 
 
