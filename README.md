@@ -14,7 +14,7 @@ Fig.1 - Comprehensive GIS-based workflow. The starting point is the availability
 The application of this GIS-based methodology for inundation map processing relies on the availability of topographic and morphological data, along with a defined Tsunami Hazard Model. The model provides hazard curves that express hazard levels as MIH values at each POI (Point of Interest) along the coast, for different Average Return Periods (ARP) and different percentiles of the uncertainty distribution.  A key advantage of this approach is that it does not require bathymetric data. 
 The process is based on GIS tools and functionalities; therefore, all input data must be organized and available as geographic datasets.The set of data can be distinguished in mandatory and optional (Fig. 2). Mandatory -  Without this data, the proposed GIS-based approach cannot be applied; Optional – This data is not essential but can improve the results of the GIS-based approach, especially in coastal areas, where more accurate and conservative inundation maps are needed for a precautionary planning.
 
-![Local image](./images/data_input2.jpg)
+![Local image](./images/data_input2.png)
 Fig. 2 - Input data for the application of the proposed GIS -based approach
 
 The main mandatory input data:
