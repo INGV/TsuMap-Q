@@ -89,8 +89,10 @@ Fig. 7 - Adding the Design Run up Value using a QGIS expression
 
 ![Local image](./images/runup_expression.png)
 Fig. 8 - Adding the QGIS Expression attribute(get_feature_by_id(@shoreline, 0), 'run_up'), where 'run_up' is the name of the field containing the run up desing value.
-<CopyToClipboard text="attribute(get_feature_by_id(@shoreline, 0), 'run_up')">Click here to copy the expression attribute(get_feature_by_id(@shoreline, 0), 'run_up') </CopyToClipboard>
 
+```Copy the expression attribute(get_feature_by_id(@shoreline, 0), 'run_up')
+attribute(get_feature_by_id(@shoreline, 0), 'run_up')
+```
 
 ![Local image](./images/autofill.png)
 Fig. 7 - Using the "Autofill" option to add the input data.
